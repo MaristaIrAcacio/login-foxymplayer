@@ -1,14 +1,10 @@
-//###################################################
-//codigo de valdaçao de formulario de login
-
-function verificar(){
-    let email = document.getElementById('loginEmail').value;
-    let senha = document.getElementById('loginSenha').value;
-    
-    if(!email || !senha){
-        alert("Campos de preenchimento obrigatorio. porfavor preencher");
+function acessar() {
+    let loginEmail = document.getElementById("loginEmail").value;
+    let loginSenha = document.getElementById("loginSenha").value;
+ 
+    if(!loginEmail || !loginSenha) {
+        alert("favor preencha os campos para acessar o site");
+    } else {
+       alert("Campos preenchidos com sucesso");
     }
 }
-
-
-//###################################################
